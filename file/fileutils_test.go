@@ -8,5 +8,5 @@ import (
 
 func TestReadFileWithDelimiter(t *testing.T) {
 	delimiter := file.ReadFileWithDelimiter("/Users/tangzhongping/Desktop/ids/clean_id.dat", ",")
-	smartlog.PrintArr(delimiter)
+	arrlog.LogArr(delimiter)
 }

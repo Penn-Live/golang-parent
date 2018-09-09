@@ -3,11 +3,11 @@ package arrlog
 import "fmt"
 
 //控制台打印log
-func logArr(arr []string) {
+func LogArr(arr []string) {
 	fmt.Println("length:", len(arr))
 	fmt.Printf("%v", arr)
 }
 
-func fileLogArr(arr []string) {
+func FileLogArr(arr []string) {
 
 }
