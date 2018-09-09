@@ -8,6 +8,6 @@ func logArr(arr []string) {
 	fmt.Printf("%v", arr)
 }
 
-func fileLogArrt(arr []string) {
+func fileLogArr(arr []string) {
 
 }
